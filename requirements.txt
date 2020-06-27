@@ -11,7 +11,7 @@ cfn-flip==1.2.1
 chardet==3.0.4
 Click==7.0
 colorama==0.4.3
-Django==3.0
+Django==3.0.7
 django-cors-headers==3.1.0
 django-extensions==2.2.6
 djangorestframework==3.10.3
