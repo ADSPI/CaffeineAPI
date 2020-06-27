@@ -15,6 +15,7 @@ class MusicsView(GenericAPIView):
 
             musics_qs = Music.objects.all().order_by('?')[:12]
 
+
             music_count = 1
             musics_s = MusicSerializer(musics_qs, many=True)
             musics = musics_s.data
